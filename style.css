@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#header {
+  background-color: #FFD700;
+  padding: 20px;
+}
+
+#header h1 {
+  color: white;
+}
+
+#content p {
+  color: black;
+  font-family: TimesNewRoman;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#header img {
+  float: left;
+  width: 100px;
+}
+
+#content img {
+  width: 900px;
+}
+
+#content {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+#footer {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}

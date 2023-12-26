@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <script>
+
+    function f1() {
+      let c = document.getElementById("cat")
+        switch (c.value) {
+            case 'Капи':
+                alert('бара!')
+                break;
+            case 'бара':
+                alert('Капи!')
+                break;
+            case 'Капибара':
+                alert('Okay I pull up!')
+                break;
+            default:
+                alert('Не Капибара -_-')
+                break;
+        }
+    }
+</script>
+
+  <div id="header">
+    <h1>Данные о Капибарах</h1>
+    <a href="index.html"><img src="logo.png" alt="Логотип сайта" id="logo"></a>
+  </div>
+
+  <br>
+    <input type="text" id="cat">
+    <button onclick="f1()">Нажми на меня!</button>
+  
+  </div>
+  <div id="footer">
+    &copy; Николаев Алексей Бас-2
+  </div>
+</body>
+</html>
